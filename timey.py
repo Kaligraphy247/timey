@@ -13,5 +13,3 @@ class Timey:
             time.sleep(sec)
         sys.stdout.write('\n')     
 
-abb = 'foo'
-Timey('Hello World, {}'.format(abb),0.02)
