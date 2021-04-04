@@ -1,4 +1,4 @@
-import os, time, colorama, sys
+import time, sys
 
 class Timey:
     ''' Prints character in stdout\n\nto a terminal* at a timely Interval
