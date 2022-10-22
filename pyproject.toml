@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timey_terminal_kaligraphy247"
+version = "0.0.1"
+authors = [
+  { name="James ?", email="author@example.com" },
+]
+
+description = "Prints text to terminal at timely intervals. Can replace the print function"
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Kaligraphy247/timey"
+"Bug Tracker" = "https://github.com/Kaligraphy247/timey/issues"

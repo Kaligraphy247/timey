@@ -1,9 +1,11 @@
 # Timey
 ### Prints characters after a set timed interval
 
+
+> # working progress
+
 ## How to Use
-- git clone Timey and copy timey.py to your project
-- import Timey:
+- pip install ?
 
         from timey import Timey
 - **OR**

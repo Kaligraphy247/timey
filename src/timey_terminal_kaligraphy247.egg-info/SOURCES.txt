@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/timey_kaligraphy247/__init__.py
+src/timey_kaligraphy247/main.py
+src/timey_terminal_kaligraphy247.egg-info/PKG-INFO
+src/timey_terminal_kaligraphy247.egg-info/SOURCES.txt
+src/timey_terminal_kaligraphy247.egg-info/dependency_links.txt
+src/timey_terminal_kaligraphy247.egg-info/top_level.txt
