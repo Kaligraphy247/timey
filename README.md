@@ -2,31 +2,20 @@
 ### Prints characters after a set timed interval
 
 
-> # working progress
-
 ## How to Use
-- pip install ?
+- `pip install timey_terminal`
 
-        from timey import Timey
+```python
+>>> from timey import Timey
+>>> p = Timey()
+>>> p.show("Sample Text") # prints the provided text to the terminal
+>>> p.get_seconds() # get the current interval at which each character is printed.  Default = 0.05s
+>>> p.set_seconds(x) # sets the secs to what was provided.
+```
+
 - **OR**
-
-        from timey import Timey as tp
-or any other alias you wish to use.
-
-- Usage 
-
-        Timey(text, sec)
-
-        tp(text, sec)
-    - **``text``** can be strings or intergers
-
-    - **``sec``** should be floats, but can also be intergers
-    - **``sec``** must be positive numbers
-
-            tp('Hello, world', 0.07)
-
-            Timey('Foo Bar Baz', 1)
-
-            Timey(f'Foo Bar Baz {opt_var_here}', 1.0)
-
-            Timey('Foo {} Baz'.format(opt_var_here), 1.0)
+```python
+from timey import TimeyOld as pp
+>>> pp("Testing", 0.5) # print each character every 0.5 secs
+>>> pp("Sample text", 2) # print each character every 2 secs
+```

@@ -1,6 +1,5 @@
 import time, sys
 
-
 class Timey:
     """
     Printing text to Terminal
